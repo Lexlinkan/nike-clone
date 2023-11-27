@@ -1,3 +1,4 @@
+import { arrowRight } from "../assets/icons";
 import { offer } from "../assets/images";
 import Button from './Button';
 
@@ -25,8 +26,8 @@ const SpecialOffer = () => {
           Navigate a realm of possibilities designed to fulfill your unique desires, surpassing the loftiest expectations. Your journey with us is nothing short of exceptional.
         </p>
         <div className="mt-11 flex flex-wrap gap-4 ">
-          <Button label="Shop Now" iconURL={null} />
-          <Button label="View details" iconURL={null} />
+          <Button label="Shop Now" iconURL={arrowRight} />
+          <Button label="Learn more" iconURL={null} backgroundColor="bg-white" borderColor="border-slate-gray" textColor="text-slate-gray" />
         </div>
       </div>
     </section>
